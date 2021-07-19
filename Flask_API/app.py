@@ -170,7 +170,7 @@ def predictfertilizer():
         if request.method == "POST":
             form_values = request.form.to_dict()
             column_names = [
-                "Temparature",
+                "Temperature",
                 "Humidity",
                 "Moisture",
                 "soil_type",
